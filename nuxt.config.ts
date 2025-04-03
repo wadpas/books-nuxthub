@@ -2,9 +2,16 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
+  nitro: {
+    experimental: {
+      tasks: true,
+    },
+  },
   modules: ['@nuxthub/core'],
   hub: {
-    database: false,
-    blob: false,
+    database: true,
+    kv: true,
+    cache: true,
+    blob: true,
   },
 })
