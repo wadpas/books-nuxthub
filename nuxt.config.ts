@@ -10,8 +10,6 @@ export default defineNuxtConfig({
   modules: ['@nuxthub/core'],
   hub: {
     database: true,
-    kv: true,
-    cache: true,
     blob: true,
   },
 })
