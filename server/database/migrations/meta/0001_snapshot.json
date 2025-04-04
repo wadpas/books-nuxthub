@@ -1,8 +1,8 @@
 {
   "version": "6",
   "dialect": "sqlite",
-  "id": "29c96c33-262e-4b80-99d8-e7d7f62fee43",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "7f348fe8-46ac-4a1e-bbd3-872d24649d53",
+  "prevId": "29c96c33-262e-4b80-99d8-e7d7f62fee43",
   "tables": {
     "books": {
       "name": "books",
@@ -62,7 +62,7 @@
           "primaryKey": false,
           "notNull": false,
           "autoincrement": false,
-          "default": "'\"2025-04-04T16:38:51.472Z\"'"
+          "default": "'\"2025-04-04T16:40:23.475Z\"'"
         }
       },
       "indexes": {},
@@ -144,7 +144,7 @@
           "primaryKey": false,
           "notNull": false,
           "autoincrement": false,
-          "default": "'\"2025-04-04T16:38:51.471Z\"'"
+          "default": "'\"2025-04-04T16:40:23.474Z\"'"
         }
       },
       "indexes": {
